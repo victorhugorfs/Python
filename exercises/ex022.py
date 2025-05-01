@@ -1,10 +1,6 @@
-nome = input('Digite seu nome completo: ')
-nome.strip
-nome.upper()
-nome.lower()
-len(nome.replace(' ',''))
-nome.split()[0]
-print('Nome completo em maiusculas: {}'.format(nome.upper()))
-print('Nome completo em minusculas: {}'.format(nome.lower()))
-print('Quantas letras ao todo sem contar os espaços: {}'.format(len(nome.replace(' ',''))))
-print('Quantidade de letras no primeiro nome: {}'.format(len(nome.split()[0])))
+nome = str(input('Digite seu nome completo: ')).strip()
+print('Analisando seu nome...')
+print('Seu nome em maiúsculas é {}'.format(nome.upper()))
+print('Seu nome em minúsculas é {}'.format(nome.lower()))
+print('Seu nome tem ao todo {} letras'.format(len(nome) - nome.count(' ')))
+print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))
