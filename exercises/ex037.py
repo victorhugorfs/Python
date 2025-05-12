@@ -1,5 +1,5 @@
 n = int(input('Digite um número qualquer:'))
-r = int(input('Escolha qual será a base de conversão, para BINÁRIO digite 1, para OCTAL digite 2, para HEXADECIMAL digite 3!:'))
+r = int(input('Escolha qual será a base de conversão: [1] converter para BINÁRIO [2] converter para OCTAL [3] converter para HEXADECIMAL - Sua opção:'))
 if r == 1:
     print('O número digitado convertido para binário é: {}!'.format(bin(n)[2:]))
 elif r == 2:
