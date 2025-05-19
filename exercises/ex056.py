@@ -4,9 +4,9 @@ mais_velho_idade = 0
 mulheres_menos_20 = 0
 
 for i in range(1, 5):
-    nome = str(input('Digite o nome: '))
+    nome = str(input('Digite o nome: ')).strip()
     idade = int(input('Digite a idade: '))
-    sexo = str(input('Digite o sexo, [H] = Homem - [M] = Mulher: '))
+    sexo = str(input('Digite o sexo, [H] = Homem - [M] = Mulher: ')).strip()
     
     soma_idades += idade  
     
