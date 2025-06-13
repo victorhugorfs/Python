@@ -1,0 +1,11 @@
+product_price = ('Keyboard', 300, 'Pc Gamer', 7000, 'Mouse', 400, 'MousePad', 90, 'Monitor', 1000)
+
+print('-'*30)
+print('LISTAGEM DE PREÇOS'.center(30))
+print('-'*30)
+print(f'{product_price [0]} .............. R$ {product_price [1]}')
+print(f'{product_price [2]} .............. R$ {product_price [3]}')
+print(f'{product_price [4]} ................. R$ {product_price [5]}')
+print(f'{product_price [6]} .............. R$ {product_price [7]}')
+print(f'{product_price [8]} ............... R$ {product_price [9]}')
+print('-'*30)
