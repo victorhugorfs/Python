@@ -7,6 +7,6 @@ print(f'Top 5 are: {team[:5]}')
 print('-=-'*11)
 print(f'The last top 4 are: {team[-4:]}')
 print('-=-'*11)
-print(f'All the teams in alphabetical order: {teamorder}')
+print(f'All the teams in alphabetical order: {teamorder}') # or print(f'All the teams in alphabetical order: {sorted (times)}') - Don't necessary the line 2
 print('-=-'*11)
-print(f'The Los Angeles Lakers is in 3th position!')
+print(f'The Los Angeles Lakers is in {team.index("Los Angeles Lakers")+1}th position!')
