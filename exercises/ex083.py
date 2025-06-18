@@ -1,7 +1,7 @@
-ask = str(input('Type the expression: '))
+expr = str(input('Type the expression: '))
 stack = [] #"stack" that will help to check the parentheses
 
-for symbol in ask:
+for symbol in expr:
     if symbol == '(': # If you find an opening parenthesis
         stack.append('(') # Put on the stack
     elif symbol == ')': # If you find a closing parenthesis
