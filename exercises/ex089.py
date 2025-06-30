@@ -8,7 +8,7 @@ while True:
     student = [name, [grade1, grade2], (grade1 + grade2) / 2]
     data.append(student)
 
-    cont = str(input('Do you wanna continue? [S/N]')).strip().upper()[0]
+    cont = str(input('Do you wanna continue? [Y/N]')).strip().upper()[0]
 
     if cont == 'N':
         break
