@@ -1,4 +1,5 @@
 import random
+import time
 
 numbers = list()
 
@@ -10,6 +11,7 @@ def prizedraw():
     print('Sorted 5 numbers of list:', end=' ')
     for n in numbers:
         print(f'{n}', end=' ')
+        time.sleep(0.5)
     print('READY!')
 
 def evensum():
