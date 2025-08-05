@@ -1,6 +1,6 @@
 import time
 
-def maior(* num):
+def bigger(* num):
     size = len(num)
 
     print('-=-'*30)
@@ -19,8 +19,8 @@ def maior(* num):
     print('-=-'*30)
 
 
-maior(1, 3, 6, 8, 9)
-maior(2, 5, 7)
-maior(1, 2)
-maior(5)
-maior()
+bigger(1, 3, 6, 8, 9)
+bigger(2, 5, 7)
+bigger(1, 2)
+bigger(5)
+bigger()
